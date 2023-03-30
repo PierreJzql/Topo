@@ -26,42 +26,25 @@
                     <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="Topo.html">Accueil</a></li>
                     <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="Flessel.html">Laura Flessel</a></li>
                     <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="SteGe.html">Sainte Geneviève</a></li>
-                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="Creation.html">Création</a></li>
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="logIn.html">Accès création</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <section class="page-section about-heading">
-        <div class="container">
-            <div class="about-heading-creation">
-                <div class="row">
-                    <div class="col-xl-9 col-lg-10 mx-auto">
-                        <div class="bg-faded rounded p-5">
-                            <h2 class="section-heading mb-4">
-                                <span class="section-heading-upper">Escalade Asnières</span>
-                                <span class="section-heading-lower">Mise à jour du topo</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <main id="main-holder">
+        <h1 id="login-header">Login</h1>
+        
+        <div id="login-error-msg-holder">
+          <p id="login-error-msg">Utilisateur et/ou password inconnu</p>
         </div>
-        <div class="container">
-            <div class="creation">
-                <div class="add-voie">
-                    <span class="ajout-voie">Ajout d'une voie</span>
-                    <input placeholder="gymnase">
-                    <input placeholder="ligne n°">
-                    <input placeholder="couleur">
-                    <input placeholder="cotation">
-                    <input placeholder="ouvreur">
-                </div>
-                
-
-                <div class="update-voie">Mise à jour d'une voie</div>
-
-            </div>
-        </div>
-    </section>
+        
+        <form id="login-form">
+          <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Nom d'utilisateur">
+          <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+          <input type="submit" value="Se connecter" id="login-form-submit">
+        </form>
+      
+      </main>
 
       <footer class="footer text-faded-footer text-center py-5">
         <div class="container"><p class="m-0 small">Copyright &copy; PJZQL 2023</p></div>
