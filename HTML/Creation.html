@@ -7,12 +7,13 @@
     <title>Ajout de voies</title>
     <link rel="stylesheet" type="text/css" href="../CSS/Topo.css">
     <script type="module" src="../JS/Topo.js"></script>
+    <script defer src="../JS/login-page.js"></script>
 </head>
 <body>
     <header>
         <h1 class="site-heading text-center text-faded d-none d-lg-block">
             <span class="site-heading-upper text-primary mb-3">Club d'escalade d'Asnières sur seine</span>
-            <span class="site-heading-lower">Ajout et mise à jour du Topo</span>
+            <span class="site-heading-lower-creation">Ajout et mise à jour du Topo</span>
         </h1>
     </header>
       <!-- Navigation-->
@@ -30,6 +31,23 @@
             </div>
         </div>
     </nav>
-    
+    <main id="main-holder">
+        <h1 id="login-header">Login</h1>
+        
+        <div id="login-error-msg-holder">
+          <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+        </div>
+        
+        <form id="login-form">
+          <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+          <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+          <input type="submit" value="Login" id="login-form-submit">
+        </form>
+      
+      </main>
+
+      <footer class="footer text-faded-footer text-center py-5">
+        <div class="container"><p class="m-0 small">Copyright &copy; PJZQL 2023</p></div>
+    </footer>
 </body>
 </html>
