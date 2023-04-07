@@ -1,0 +1,369 @@
+[
+    {
+        "ligne":1,
+        "voie" :[
+            {
+                "color" : "Orange",
+                "hex": "#F39C12",
+                "cotationNumber" : "initiation",
+                "cotationLetter" : "",
+                "forbidden" :"",
+                "ouvreur" : "Alice"
+
+            },
+            {
+                "color" : "Blanche",
+                "hex":"#FFFFFF",
+                "cotationNumber" : "4",
+                "cotationLetter" : "",
+                "forbidden" :"",
+                "ouvreur" : "Nicolas Mousty"
+
+            },
+            {
+                "color" : "verte",
+                "hex":"#52BE80",
+                "cotationNumber" : "5",
+                "cotationLetter" : "b",
+                "forbidden" :"Diètre",
+                "ouvreur" : "Patrick"
+
+            },
+            {
+                "color" : "Violette",
+                "hex":"#A569BD",
+                "cotationNumber" : "5",
+                "cotationLetter" : "b+",
+                "forbidden" :"Diètre",
+                "ouvreur" : "Jean-Luc"
+
+            },
+            {
+                "color" : "Rouge",
+                "hex":"#E74C3C ",
+                "cotationNumber" : "6",
+                "cotationLetter" : "a/b",
+                "forbidden" :"Escalier",
+                "ouvreur" : "Pierre"
+
+            }
+        ]
+    },
+
+    { 
+        "ligne":2,
+        "voie" :[
+            {
+                "color" : "Rose",
+                "hex":"#FA8DF3",
+                "cotationNumber" : "4",
+                "cotationLetter" : "",
+                "forbidden" :"",
+                "ouvreur" : "Michel"
+
+            },
+            {
+                "color" : "Jaune",
+                "hex":"#F4D03F ",
+                "cotationNumber" : "5",
+                "cotationLetter" : "a",
+                "forbidden" :"",
+                "ouvreur" : "Nicolas Mousty"
+
+            },
+            {
+                "color" : "Bleue",
+                "hex":"#3924D4",
+                "cotationNumber" : "5",
+                "cotationLetter" : "c",
+                "forbidden" :"",
+                "ouvreur" : "Philippe"
+
+            },
+            {
+                "color" : "Noire",
+                "hex":"#000000",
+                "cotationNumber" : "7",
+                "cotationLetter" : "a",
+                "forbidden" :"",
+                "ouvreur" : "Nicolas Massay"
+
+            }
+        ]
+    },
+    { 
+        "ligne":3,
+        "voie" :[
+            {
+                "color" : "Blanche",
+                "hex":"#FFFFFF",
+                "cotationNumber" : "5",
+                "cotationLetter" : "b",
+                "forbidden" :"",
+                "ouvreur" : "Michel"
+
+            },
+            {
+                "color" : "Verte",
+                "hex":"#52BE80",
+                "cotationNumber" : "5",
+                "cotationLetter" : "b+",
+                "forbidden" :"",
+                "ouvreur" : "Nicolas Mousty"
+
+            },
+            {
+                "color" : "Violette",
+                "hex":"#A569BD",
+                "cotationNumber" : "6",
+                "cotationLetter" : "b+",
+                "forbidden" :"",
+                "ouvreur" : "Philippe"
+
+            },
+            {
+                "color" : "Rouge",
+                "hex":"#E74C3C ",
+                "cotationNumber" : "6",
+                "cotationLetter" : "a",
+                "forbidden" :"",
+                "ouvreur" : "Nicolas Massay"
+
+            },
+            {
+                "color" : "Grise",
+                "hex":"#8A898B",
+                "cotationNumber" : "6",
+                "cotationLetter" : "b",
+                "forbidden" :"",
+                "ouvreur" : "François"
+
+            }
+        ]
+    },
+    { 
+        "ligne":4,
+        "voie" :[
+            {
+                "color" : "Verte",
+                "hex":"#52BE80",
+                "cotationNumber" : "initiation",
+                "cotationLetter" : "",
+                "forbidden" :"",
+                "ouvreur" : "Michel"
+
+            },
+            {
+                "color" : "Jaune",
+                "hex":"#F4D03F ",
+                "cotationNumber" : "5",
+                "cotationLetter" : "b",
+                "forbidden" :"",
+                "ouvreur" : "Nicolas Mousty"
+
+            },
+            {
+                "color" : "Bleue",
+                "hex":"#3924D4",
+                "cotationNumber" : "5",
+                "cotationLetter" : "c+",
+                "forbidden" :"",
+                "ouvreur" : "Philippe"
+
+            },
+            {
+                "color" : "Noire",
+                "hex":"#000000",
+                "cotationNumber" : "7",
+                "cotationLetter" : "b",
+                "forbidden" :"",
+                "ouvreur" : "Nicolas Massay"
+
+            }
+        ]
+    },
+    { 
+        "ligne":6,
+        "voie" :[
+            {
+                "color" : "Jaune",
+                "hex":"#F4D03F ",
+                "cotationNumber" : "4",
+                "cotationLetter" : "",
+                "forbidden" :"",
+                "ouvreur" : ""
+
+            },
+            {
+                "color" : "Grise",
+                "hex":"#8A898B",
+                "cotationNumber" : "6",
+                "cotationLetter" : "a",
+                "forbidden" :"",
+                "ouvreur" : ""
+
+            },
+            {
+                "color" : "Rose",
+                "hex":"#FA8DF3",
+                "cotationNumber" : "6",
+                "cotationLetter" : "c+",
+                "forbidden" :"",
+                "ouvreur" : ""
+
+            },
+            {
+                "color" : "Noire",
+                "hex":"#000000",
+                "cotationNumber" : "7",
+                "cotationLetter" : "a+",
+                "forbidden" :"",
+                "ouvreur" : ""
+
+            }
+        ]
+    },
+    { 
+        "ligne":7,
+        "voie" :[
+            {
+                "color" : "Bleue",
+                "hex":"#3924D4",
+                "cotationNumber" : "5",
+                "cotationLetter" : "c+",
+                "forbidden" :"",
+                "ouvreur" : ""
+
+            },
+            {
+                "color" : "Verte",
+                "hex":"#52BE80",
+                "cotationNumber" : "6",
+                "cotationLetter" : "a",
+                "forbidden" :"",
+                "ouvreur" : ""
+
+            }
+        ]
+    },
+    { 
+        "ligne":8,
+        "voie" :[
+            {
+                "color" : "Blanche",
+                "hex":"#FFFFFF",
+                "cotationNumber" : "5",
+                "cotationLetter" : "b",
+                "forbidden" :"",
+                "ouvreur" : ""
+
+            },
+            {
+                "color" : "Rose",
+                "hex":"#FA8DF3",
+                "cotationNumber" : "6",
+                "cotationLetter" : "c+",
+                "forbidden" :"",
+                "ouvreur" : ""
+
+            }
+        ]
+    },
+    { 
+        "ligne":9,
+        "voie" :[
+            {
+                "color" : "Violette",
+                "hex":"#A569BD",
+                "cotationNumber" : "6",
+                "cotationLetter" : "a",
+                "forbidden" :"",
+                "ouvreur" : ""
+
+            },
+            {
+                "color" : "Noire",
+                "hex":"#000000",
+                "cotationNumber" : "6",
+                "cotationLetter" : "b+",
+                "forbidden" :"",
+                "ouvreur" : ""
+
+            }
+        ]
+    },
+    { 
+        "ligne":10,
+        "voie" :[
+            {
+                "color" : "Rouge",
+                "hex":"#E74C3C ",
+                "cotationNumber" : "5",
+                "cotationLetter" : "b+",
+                "forbidden" :"",
+                "ouvreur" : ""
+
+            },
+            {
+                "color" : "Bleue",
+                "hex":"#3924D4",
+                "cotationNumber" : "6",
+                "cotationLetter" : "b",
+                "forbidden" :"",
+                "ouvreur" : ""
+
+            }
+        ]
+    },
+    { 
+        "ligne":12,
+        "voie" :[
+            {
+                "color" : "Verte",
+                "hex":"#52BE80",
+                "cotationNumber" : "4",
+                "cotationLetter" : "",
+                "forbidden" :"",
+                "ouvreur" : ""
+
+            },
+            {
+                "color" : "Violette",
+                "hex":"#A569BD",
+                "cotationNumber" : "5",
+                "cotationLetter" : "b",
+                "forbidden" :"",
+                "ouvreur" : ""
+
+            },
+            {
+                "color" : "Jaune",
+                "hex":"#F4D03F ",
+                "cotationNumber" : "5",
+                "cotationLetter" : "b+",
+                "forbidden" :"",
+                "ouvreur" : ""
+
+            },
+            {
+                "color" : "Orange",
+                "hex":"#F39C12",
+                "cotationNumber" : "6",
+                "cotationLetter" : "a",
+                "forbidden" :"",
+                "ouvreur" : ""
+
+            },
+            {
+                "color" : "Noire",
+                "hex":"#000000",
+                "cotationNumber" : "6",
+                "cotationLetter" : "b+",
+                "forbidden" :"",
+                "ouvreur" : ""
+
+            }
+        ]
+    }
+
+]

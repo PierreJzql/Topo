@@ -11575,11 +11575,22 @@ p {
   
 }
 
-.container-creation{
+/* .container-creation{
   display: grid;
   grid-template-columns: 200px 200px 200px;
   grid-template-rows: 50px 50px 50px 50px 50px 50px ;
   gap: 20px;
+  max-width: 1000px;
+  border: solid;
+  margin: 10px auto;
+} */
+
+.container-creation{
+  display: flex;
+  flex-direction: row;
+  /* width: fit-content; */
+  justify-content: space-around;
+  padding: 20px;
   max-width: 1000px;
   border: solid;
   margin: 10px auto;
@@ -11590,10 +11601,71 @@ p {
   
 }
 
-.ajout-voie{
-  grid-column-start: 1;
+.add-voie{
+  display: flex;
+  flex-direction: column;
+  
+  
 }
 
 .update-voie{
-  grid-column-start: 3;
+  display: flex;
+  flex-direction: column;
+  
+}
+.voieFlessel{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.listeVoieFlessel{
+  border:solid;
+  border-radius: 15%;
+  padding: 10px;
+  margin: 20px;
+  background-color: rgb(184, 208, 237 );
+  
+}
+
+.tittleVoie{
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+.tittleVoie.Color{
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.listeVoieFlessel li{
+  color: black;
+  /* list-style-type: "\1F44D"; */
+  list-style-type: disclosure-closed;
+  padding-left: 30px;
+  margin-right: 20px;
+}
+.listeVoieFlessel li span{
+  text-decoration: underline;
+  font-style: italic;
+  
+}
+
+article{
+  width: 220px;
+  
+}
+article img{
+  display: flex;
+  margin: auto;
+  width: 100px;
+}
+
+.containerFlessel{
+  max-width: 1600px;
+  margin: auto;
 }
